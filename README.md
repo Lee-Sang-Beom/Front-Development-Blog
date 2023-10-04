@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project - Frontend Guide
 
-## Getting Started
+## 1. 프로젝트 계획 이유
 
-First, run the development server:
+[**Frontend Guide**](/) : 프론트엔드 개발자를 위한 공부 과정에서 웹 기초 개념과 현재 프로젝트에서 자주 쓰이는 React, Next.js에 대하여 다시 살펴보고, 해당 개념을 정리하기 위해 계획하였습니다.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### - 제공기능
+
+- 프론트엔드 개발자가 되기 위해, 알고 있어야 할 개념 설명
+- React와 Next.js를 사용하는 이유 및 강점에 대한 개념적 설명
+
+---
+
+# 2. Install
+
+## 2.1. Next.js
+
+- 사전에 node.js가 설치되어 있어야 합니다.
+
+```
+npx create-next-app@latest [프로젝트명]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 설치 확인은 아래의 명령어를 사용하여 확인할 수 있습니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm -v
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- build
 
-## Learn More
+```
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+- run
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 2.2. [설치제목]
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [내용]
